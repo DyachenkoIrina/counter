@@ -1,0 +1,45 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin-top: 126px;
+}
+
+.counter {
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 44px;
+  width: 22px;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.counter_btn,
+.counter_reset {
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 100px;
+  width: 500px;
+  border-radius: 20px;
+  background-color: #4191ff;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+.counter_reset {
+  background-color: #d45366;
+}
+
+.counter_btn:hover,
+.counter_reset:hover {
+  border: solid 5px #3485f7;
+}
