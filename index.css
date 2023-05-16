@@ -44,3 +44,9 @@ body {
 .counter_reset:hover {
   border: solid 5px #3485f7;
 }
+@media (max-width: 500px) {
+  .counter_btn,
+  .counter_reset {
+    width: 100%;
+  }
+}
